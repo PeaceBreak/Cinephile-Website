@@ -1,0 +1,480 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0%;
+    font-family: Montserrat;
+}
+
+body,
+html {
+    
+    width: 100vw;
+    height: 2048px;
+    
+}
+
+.Home_Page {
+    background-image: url(Images/Home/HomeBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.main_container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.top_nav {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    /* margin-left: auto; */
+    margin-right: 5%;
+}
+
+.logo {
+    /* margin: auto; */
+    margin-left: 5%;
+    margin-right: 0;
+    margin-top: AUTO;
+    margin-bottom: auto;
+    height: auto;
+    width: 300px;
+  
+}
+
+.logo > img {
+    width: 300px;
+    height: auto;
+    padding: 1px;
+    margin: auto;
+}
+
+.navis  {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0%;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+    padding: 2rem 2rem 0 0rem;
+}
+
+.navis > button {
+    /* width: 200px; */
+    font-size: 1.8rem;
+    margin-left: 1rem;
+    padding: 2rem 2rem 0 2rem;
+    border: none;
+    background: none;
+    color: white;
+    height: 200px;
+    width: auto;
+}
+
+.navis_link > button {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    padding: 2rem 2rem 0 2rem;
+    border: none;
+    background: none;
+    color: white;
+    height: 200px;
+    width: auto;
+}
+
+.input_section {
+    /* margin: auto; */
+    width: 100%;
+    height: auto;
+    /* margin-left: 10%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    margin-top: auto; */
+    margin: 0 0 0 auto;
+    display: flex;
+    padding: ;
+}
+
+.input_section > * {
+    display: flex;
+    margin: auto;
+    margin: auto 0 3% 0;
+    /* width: 10%;
+    height: 10%; */
+    
+    
+}
+
+.search_bar {
+    display: flex;
+    width: 40%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 2%;
+    
+    /* margin: 10% 0 0 0; */
+    
+}
+
+.search_bar > img {
+    /* display: flex; */
+    width: 100%;
+    height: auto;
+    
+}
+
+.log_in {
+    width: 12%;
+    height: auto;
+    margin-right: 5%;
+}
+
+.log_in > img {
+    width: 100%;
+    height: auto;
+}
+
+.introduction_body {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0;
+    margin-bottom: 5%;
+}
+
+.description {
+    display: flex;  
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    margin: 5% 2% 0 0;
+}
+
+.text_description {
+    width: 70%;
+    height: auto;
+    font-size: 4.5rem;
+    color: white;
+    font-weight: 500;
+    /* margin-left: auto;
+    margin-right: 2%; */
+}
+
+
+.stars {
+    margin: 5% 0 0 0;
+}
+
+.stars > img {
+    width: 40%;
+    height: auto;
+}
+
+.movie_sample {
+    display: flex;
+    /* margin-left: 2%;
+    margin-right: auto; */
+}
+
+.movie_sample > img {
+    width: 800px;
+    height: auto;
+}
+
+.supporting_body {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    
+    
+}
+
+.supporting_body > h1 {
+    color: white;
+    margin: 1% 0 1% 0;
+    font-weight: 500;
+}
+
+.support_links {
+    display: flex;
+    /* justify-content: center; */
+}
+
+.supp_column {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    height: auto;
+    justify-content: center;
+    /* margin-left: 3%;
+    margin-right: 3%; */
+    /* padding: 1rem; */
+    /* margin-right: 5%; */
+    /* margin-left: 5%; */
+    
+}
+
+.supp_column > p {
+    margin: 5% 0 5% 0;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#supp_img {
+    width: 100%;
+    height: auto;
+}
+
+
+.supp_column > img {
+    width: 50%;
+    height: auto;
+    
+}
+
+.read_more {
+    color: #bd66eb;
+    text-decoration: underline;
+}
+
+
+
+/* #supp_col_1 {
+    margin-right: 6.5%;
+} */
+
+#supp_col_2 {
+    margin: 0 4% 0 4%;
+}
+
+.footer {
+    width: 100%;
+    height: 4%;
+    background-color: #d45bf4;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    margin: 1% auto 2% auto
+}
+
+.footer > p {
+    padding: 2rem;
+    color: white;
+}
+
+/* Films Page Section */
+
+
+
+.Films_Page {
+    background-image: url(./Images/Films/FilmsPageBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 3094px;
+}
+
+.Most_Popular {
+    margin: 0 5% 0 5%;
+}
+
+.Most_Popular > img{
+    width: 100%;
+    height: 100%;
+    margin: 3% 0 0 0;
+}
+
+.two_row {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 50vh;
+    margin: 7% 5% 0 5%;
+    align-items: center;
+}
+
+.two_row_left {
+    width: auto;
+    height: 100%;
+    margin: 0 0 0 5%;
+}
+
+.two_row_right {
+    width: auto;
+    height: 120%;
+    margin: 0 5% 0 auto;
+    padding-bottom: 2.5rem;
+}
+
+.High_Review {
+    width: auto;
+    height: auto;
+    margin: 8% 5% 0;
+}
+
+.High_Review > * {
+    width: 100%;
+    height: 100%;
+}
+
+.Best_Classics {
+    width: auto;
+    height: auto;
+    margin: 4% 5% 0;
+}
+
+.Best_Classics > * {
+    width: 100%;
+    height: 100%;
+}
+
+/* About Page Section */
+
+
+.About_Page {
+    background-image: url(./Images/About/AboutUsBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 2233px;
+}
+
+.About_Intro {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 25vw;
+    margin: 3% 10% 0;
+    align-items: center;
+    color: white;
+}
+
+.Intro_Img {
+    width: 100%;
+    height: 100%;
+}
+
+.Intro_Img > img {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 88%;
+}
+
+.About_Intro_left > h1 {
+    font-weight: 550;
+    font-size: 3.5rem;
+}
+
+.About_Intro_left > p {
+    font-size: 2rem;
+    font-weight: 200;
+    width: 80%;
+    margin: 5% 0 0 0;
+
+}
+
+.cinephile_text {
+    background-color: rgba(197, 142, 231, .3);
+    /* color: purple; */
+}
+
+.Mission_Vision {
+    width: auto;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10% 0 10% ;
+}
+
+.Mission_Vision > img {
+    width: auto;
+    height: 45%;
+    margin: 0 auto 0 0;
+    display: flex;
+    /* align-items: center; */
+}
+
+.M_V {
+    width: 40%;
+    height: auto;
+    margin: 0 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Mission {
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.Mission > h1 {
+    font-size: 3.5rem;
+    font-weight: 550;
+    margin: 0 0 5% 0;
+}
+
+.Mission > p {
+    width: 80%;
+    font-size: 1.5rem;
+}
+
+.Vision {
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.Vision > h1 {
+    font-size: 3.5rem;
+    font-weight: 550;
+    margin: 8% 0 5% 0;
+}
+
+.Vision > p {
+    width: 80%;
+    font-size: 1.5rem;
+}
+
+.The_Story {
+    width: auto;
+    height: auto;
+    display: flex;
+    color: white;
+    margin: 0 10%;
+    flex-direction: column;
+}
+
+.The_Story > h1 {
+    width: 100%;
+    height: auto;
+    font-size: 3.5rem;
+    font-weight: 450;
+    margin: 0 0 1% 0;
+    color: rgb(233, 52, 240);
+}
+
+.The_Story > p {
+    width: 75%;
+    height: auto;
+    margin: 1% 0;
+    font-size: 2rem;
+}
+
